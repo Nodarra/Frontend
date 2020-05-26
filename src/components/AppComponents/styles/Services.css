@@ -1,0 +1,62 @@
+.services {
+    padding: 50px 0 50px 0;
+}
+
+.grid-ser {
+    margin-left: 23%;
+    margin-right: 23%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px 40px;
+}
+
+.ser {
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    border: 3px solid red;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.ser:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+    box-shadow: 0 0 5px red;
+}
+
+.ser-icon {
+    flex: 1;
+}
+
+.ser-text {
+    flex: 2;
+    text-align: justify;
+    margin: 10px
+}
+
+.ser-text-header {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.icon {
+    position: relative;
+    width: 50px;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+}
+
+@media screen and (max-width: 800px){
+    .grid-ser {
+        margin: 0 15% 0 15%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .grid-ser {
+        margin: 0 10% 0 10%;
+    }
+}

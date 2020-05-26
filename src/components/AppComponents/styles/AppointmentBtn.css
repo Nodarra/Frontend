@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.appo-container {
+    border: 3px solid red;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #EC4C4C;
+    margin: auto;
+    width: 200px;
+}
+
+.appo-div {
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+.appo-btn {
+    text-decoration: none;
+}
+
+.appo-text {
+    color: #fff;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 2560px) {
+    .appo-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .appo-container {
+        display: block;
+    }
+
+    
+}

@@ -1,0 +1,23 @@
+.main {
+    margin-top: 12vh;
+}
+
+.logo-back {
+    position: fixed;
+    left: 50%;
+    top: 12%;
+    bottom: 320px;
+    transform: translate(-50%);
+    opacity: 0.2;
+    width: 600px;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo-back {
+        width: 400px;
+    }
+}
+
+
